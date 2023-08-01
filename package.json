@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/melnguyen2551990/Cypress-Linkedin2/issues"
   },
-  "homepage": "https://github.com/melnguyen2551990/Cypress-Linkedin2#readme"
+  "homepage": "https://github.com/melnguyen2551990/Cypress-Linkedin2#readme",
+  "dependencies": {
+    "cypress": "^12.17.2"
+  }
 }
