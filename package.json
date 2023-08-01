@@ -4,7 +4,8 @@
   "description": "Practice follow linkedin guide",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cypress:run": "cypress run --env tags=@login"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,20 @@
   },
   "homepage": "https://github.com/melnguyen2551990/Cypress-Linkedin2#readme",
   "dependencies": {
-    "cypress": "^12.17.2"
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions/*.js",
+    "filterSpecs": true,
+    "omitFiltered": true
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "cucumber-html-reporter": "^7.1.1",
+    "multiple-cucumber-html-reporter": "^3.2.0"
   }
 }
