@@ -1,0 +1,19 @@
+{
+  "name": "cypress-linkedin2",
+  "version": "1.0.0",
+  "description": "Practice follow linkedin guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melnguyen2551990/Cypress-Linkedin2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melnguyen2551990/Cypress-Linkedin2/issues"
+  },
+  "homepage": "https://github.com/melnguyen2551990/Cypress-Linkedin2#readme"
+}
